@@ -4,7 +4,10 @@ def min_max_product(list):
     # Add your solution here. You can use additional functions if need be.
     # Don't forget to add a DocString for all your functions and comment your code.
     # Your functions should return values rather than printing the result although you can use printing for testing purposes.
-    return "Your Return Value"
+    max_value = max(list)
+    min_value = min(list)
+    product = max_value*min_value
+    return product
 
 if __name__ == '__main__':
     # Add any code to test your solution here
